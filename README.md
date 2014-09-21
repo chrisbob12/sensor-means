@@ -1,18 +1,15 @@
 sensor-means
 ============
+#course project for Coursera 'getting and cleaning data'
 
-course project for Coursera 'getting and cleaning data'
+Data files assumed to be in working directory
 
-The file run-analysis.R is sufficiently commented to show how it works.
-
-## read contents of datafiles into dataframes
-## join testing and training dataframes
-## remove interim components
-## clean up feature names from features.txt
-## add features as column names
-## maybe remove xData 
-## add activity descriptions to numbers and descriptive variable names
-## convert subject numbers to factors and add to dataset
-## remove redundant activity code column
-## calculate means grouped by subject and activity
-
+1 read contents of datafiles into dataframes
+2 join testing and training dataframes
+3 clean up feature names from features.txt
+4 add features as column names
+5 add activity descriptions to numbers and descriptive variable names
+6 convert subject numbers to factors and add to dataset
+7 remove redundant activity code column
+8 calculate means grouped by subject and activity
+9 create text file of results
