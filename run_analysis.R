@@ -56,6 +56,8 @@ step3 <- as.data.frame(step3[,"activity code":=NULL])
 library(plyr)
 dataOut <- ddply(step3, c("subject","activity"), numcolwise(mean))
 
+write.table(dataOut,"dataOut.txt",row.names=FALSE)
+
 ## it would be nice to break out the variables embedded in the
 ## column names, but it's beyond the capacity of the author
 ## library(reshape2)
